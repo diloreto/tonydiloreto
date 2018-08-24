@@ -1,0 +1,27 @@
+/*
+Theme Name: TonyDiLoreto.com 2018
+Description: Child theme for Uncode theme
+Author: Undsgn™
+Author URI: http://www.undsgn.com
+Template: uncode
+Version: 1.0.0
+Text Domain: uncode
+*/
+
+.link_footer{
+  color:#0099CC;
+}
+
+.link_footer:active{
+  color:#FFF;
+  text-style:underline;
+}
+
+/* Fix the homepage header colors */
+body.home .menu-light .menu-smart a{
+	color:#FFF !important;
+}
+
+body.home header.is_stuck div.menu-horizontal-inner a{
+	color:#000 !important;
+}
